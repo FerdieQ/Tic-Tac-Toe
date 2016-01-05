@@ -1,0 +1,32 @@
+body {
+background-color: black;
+}
+
+h1 { 
+	text-align: center;
+	position: relative;
+	font-family: "Comic Sans MS", sans-serif;
+	color: white;
+	margin-top: 100px;
+}
+
+#container {
+	margin: 25px auto;
+	width: 329px;
+	height: 308px;
+}
+
+.square {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border: 3px solid yellow;
+	background-color: #00CCFF;
+	margin-bottom: 0px;
+	margin-left: 6px;
+	padding: 0px;
+	text-align: center;
+	color: white;
+	font-size: 97px;
+}
+
