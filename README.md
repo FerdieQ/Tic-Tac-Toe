@@ -9,7 +9,9 @@ The classic game of X's and O's! Two players take turns marking spaces on a 3x3 
 ====
 
 ###Technologies Used
-[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | [CSS](http://www.w3schools.com/css/) | [JavaScript](https://www.javascript.com/)
+*  HTML5
+*  CSS3
+*  JavaScript
 
 ====
 
@@ -19,7 +21,7 @@ The classic game of X's and O's! Two players take turns marking spaces on a 3x3 
 *  A player can click on the nine cells to make a move.
 *  Every click will alternate between marking an X and O.
 *  Once occupied with an X or O, the cell cannot be played again.
-P*  rovide a Reset Game button that will clear the contents of the board.
+*  Provide a Reset Game button that will clear the contents of the board.
 
 ====
 Created by Ferdie Quizon
