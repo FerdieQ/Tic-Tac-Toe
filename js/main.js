@@ -2,7 +2,7 @@ var player = 1;
 
 function startGame() {
     document.turn = "X";
-    setMessage("Player "+ document.turn + " turn");
+    setMessage("Player "+ document.turn + " turn!");
 };
 
 
@@ -13,7 +13,17 @@ function setMessage(msg) {
 
 function nextMove(square){
     square.innerText = document.turn;
+    switchTurn();
+};
 
+function switchTurn() {
+    if (document.turn =="X"){
+        document.turn ="O";
+    } else {
+        document.turn ="X";
+    };
+
+    setMessage("Player "+ document.turn + " turn!");
 };
 
 
